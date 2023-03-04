@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "web-task-7"
+version = "0.1.0"
+description = ""
+authors = ["Vladyslav Chaban <dma.employee.v@gmail.com>"]
+readme = "README.md"
+packages = [{include = "web_task_7"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+sqlalchemy = "^2.0.4"
+alembic = "^1.9.4"
+psycopg2-binary = "^2.9.5"
+faker = "^17.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
